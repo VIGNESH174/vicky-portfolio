@@ -129,17 +129,23 @@ export default function Hero() {
             transition={{ delay: 0.7, duration: 0.7 }}
             className="mt-9 flex flex-wrap items-center gap-4"
           >
-            <a
-              href="#projects"
-              className="group flex items-center gap-2 rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-black transition hover:scale-105"
-            >
-              Explore my work
+           <a
+  href="#projects"
+  className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-violet-500 px-6 py-3.5 text-sm font-semibold text-white shadow-[0_0_25px_rgba(139,92,246,0.35)] transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-105 hover:bg-violet-400 hover:shadow-[0_0_45px_rgba(139,92,246,0.75)]"
+>
+  {/* Bright hover sweep */}
+  <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/30 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
 
-              <ArrowUpRight
-                size={17}
-                className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-              />
-            </a>
+  <span className="relative z-10 whitespace-nowrap">
+    Explore my work
+  </span>
+
+  <ArrowUpRight
+    size={18}
+    strokeWidth={2.2}
+    className="relative z-10 shrink-0 text-white transition-all duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:scale-110"
+  />
+</a>
 
             <a
               href="/resume.pdf"

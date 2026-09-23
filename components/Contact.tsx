@@ -103,7 +103,7 @@ export default function Contact() {
                   <a
                     key={item.title}
                     href={item.href}
-                    className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.02] p-4 transition duration-300 hover:border-violet-500/30 hover:bg-white/[0.05]"
+                    className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.02] p-4 transition-all duration-300 hover:-translate-y-1 hover:border-violet-400/40 hover:bg-violet-500/[0.06] hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]"
                   >
                     <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/[0.04]">
                       <Icon

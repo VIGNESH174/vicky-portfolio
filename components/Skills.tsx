@@ -105,7 +105,7 @@ export default function Skills() {
                 key={group.title}
                 delay={index * 0.08}
               >
-                <div className="group border-b border-white/10 py-8 transition duration-300 hover:bg-white/[0.02]">
+                <div className="group border-b border-white/10 py-8 transition-all duration-300 hover:border-violet-500/30 hover:bg-violet-500/[0.04] hover:shadow-[0_0_35px_rgba(139,92,246,0.12)]">
                   <div className="grid gap-6 lg:grid-cols-[80px_0.8fr_1fr] lg:items-center">
                     {/* Number */}
                     <div className="text-sm font-medium text-zinc-700 transition group-hover:text-violet-400">
@@ -188,7 +188,7 @@ function Skillpill({
 }) {
   return (
     <span
-      className="rounded-full border border-white/10 bg-white/[0.025] px-3.5 py-2 text-xs text-zinc-400 transition duration-300 hover:border-violet-500/30 hover:bg-violet-500/[0.06] hover:text-white"
+      className="rounded-full border border-white/10 bg-white/[0.025] px-3.5 py-2 text-xs text-zinc-400 transition-all duration-300 hover:border-violet-400/60 hover:bg-violet-500/[0.12] hover:text-white hover:shadow-[0_0_18px_rgba(139,92,246,0.2)]"
       style={{
         transitionDelay: `${index * 20}ms`,
       }}

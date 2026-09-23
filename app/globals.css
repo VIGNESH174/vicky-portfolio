@@ -137,3 +137,38 @@ img {
     scroll-margin-top: 72px;
   }
 }
+
+/* =========================================
+   GLOBAL INTERACTION / HOVER SYSTEM
+   ========================================= */
+
+@media (hover: hover) {
+  /* All clickable elements get a subtle brightness boost */
+  a,
+  button {
+    transition:
+      filter 300ms ease,
+      transform 300ms ease,
+      box-shadow 300ms ease,
+      background-color 300ms ease,
+      border-color 300ms ease,
+      color 300ms ease;
+  }
+
+  a:hover,
+  button:hover {
+    filter: brightness(1.15);
+  }
+
+  /* Stronger effect for primary buttons */
+  a.bg-white:hover,
+  a.bg-violet-500:hover,
+  button.bg-white:hover,
+  button.bg-violet-500:hover {
+    filter: brightness(1.2);
+    transform: translateY(-2px) scale(1.03);
+    box-shadow:
+      0 10px 35px rgba(139, 92, 246, 0.25),
+      0 0 30px rgba(139, 92, 246, 0.2);
+  }
+}

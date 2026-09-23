@@ -100,7 +100,7 @@ export default function Projects() {
         <div className="relative mx-auto max-w-7xl">
           {/* Header */}
           <Reveal>
-            <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
+            <div className="group flex h-full flex-col border-t border-white/10 pt-7 transition-all duration-300 hover:border-violet-500/40 hover:bg-violet-500/[0.03] hover:shadow-[0_0_40px_rgba(139,92,246,0.1)]">
               <div className="max-w-3xl">
                 <p className="text-sm font-medium uppercase tracking-[0.3em] text-violet-400">
                   Selected Work
