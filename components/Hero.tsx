@@ -159,7 +159,7 @@ export default function Hero() {
             className="mt-10 flex items-center gap-6"
           >
             <a
-              href="https://github.com"
+              href="https://github.com/VIGNESH174"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-zinc-600 transition hover:text-white"
@@ -170,7 +170,7 @@ export default function Hero() {
             <span className="h-1 w-1 rounded-full bg-zinc-700" />
 
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/vignesh-m-78b582348?utm_source=share_via&utm_content=profile&utm_medium=member_android"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-zinc-600 transition hover:text-white"

@@ -14,8 +14,8 @@ const contactLinks = [
   {
     icon: Mail,
     title: "Email",
-    value: "your.email@example.com",
-    href: "mailto:your.email@example.com",
+    value: "vignesh44470@gmail.com",
+    href: "mailto:vignesh44470@gmail.com",
   },
   {
     icon: MapPin,
