@@ -59,26 +59,51 @@ export default function Footer() {
             © {new Date().getFullYear()} Vicky. All rights reserved.
           </p>
 
-          <div className="flex items-center gap-5">
+          <div className="flex flex-wrap items-center gap-5">
+  <a
+    href="mailto:your.email@example.com"
+    className="flex items-center gap-2 transition hover:text-white"
+  >
+    <Mail size={16} />
+    Email
+  </a>
 
-            <a
-              href="mailto:vignesh44470@gmail.com"
-              className="flex items-center gap-2 transition hover:text-white"
-            >
-              <Mail size={16} />
-              Email
-            </a>
+  <a
+    href="https://github.com/VIGNESH174"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition hover:text-white"
+  >
+    GitHub
+  </a>
 
-            <a
-              href="#home"
-              aria-label="Back to top"
-              className="flex items-center gap-2 transition hover:text-white"
-            >
-              Back to top
-              <ArrowUp size={16} />
-            </a>
+  <a
+    href="https://www.linkedin.com/in/vignesh-m-78b582348?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition hover:text-white"
+  >
+    LinkedIn
+  </a>
 
-          </div>
+  <a
+    href="https://www.instagram.com/?hl=en"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition hover:text-white"
+  >
+    Instagram
+  </a>
+
+  <a
+    href="#home"
+    aria-label="Back to top"
+    className="flex items-center gap-2 transition hover:text-white"
+  >
+    Back to top
+    <ArrowUp size={16} />
+  </a>
+</div>
         </div>
 
       </div>
