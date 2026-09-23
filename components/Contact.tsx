@@ -57,7 +57,7 @@ export default function Contact() {
       className="relative overflow-hidden px-6 py-28"
     >
       {/* Background glow */}
-      <div className="pointer-events-none absolute left-1/2 top-1/3 h-96 w-96 -translate-x-1/2 rounded-full bg-violet-600/10 blur-[140px]" />
+      <div className="pointer-events-none absolute left-1/2 top-1/3 h-96 w-96 -translate-x-1/2 rounded-full bg-violet-500/[0.05] blur-[140px]" />
 
       <div className="relative mx-auto max-w-7xl">
         {/* Header */}
@@ -103,7 +103,7 @@ export default function Contact() {
                   <a
                     key={item.title}
                     href={item.href}
-                    className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.02] p-4 transition-all duration-300 hover:-translate-y-1 hover:border-violet-400/40 hover:bg-violet-500/[0.06] hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]"
+                    className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.035] p-4 transition-all duration-300 hover:-translate-y-1 hover:border-violet-400/40 hover:bg-violet-500/[0.05] hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]"
                   >
                     <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/[0.04]">
                       <Icon
@@ -255,7 +255,7 @@ export default function Contact() {
 
               {/* Success message */}
               {isSent && (
-                <div className="flex items-center gap-3 rounded-xl border border-violet-500/20 bg-violet-500/[0.06] px-4 py-3 text-sm text-violet-300">
+                <div className="flex items-center gap-3 rounded-xl border border-violet-500/20 bg-violet-500/[0.04] px-4 py-3 text-sm text-violet-300">
                   <CheckCircle2 size={17} />
 
                   <span>

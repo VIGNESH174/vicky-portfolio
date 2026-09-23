@@ -60,7 +60,7 @@ export default function About() {
       className="relative overflow-hidden px-6 py-28"
     >
       {/* Background Glow */}
-      <div className="pointer-events-none absolute left-0 top-1/3 h-72 w-72 rounded-full bg-violet-600/10 blur-[120px]" />
+      <div className="pointer-events-none absolute left-0 top-1/3 h-72 w-72 rounded-full bg-violet-500/[0.05] blur-[120px]" />
 
       <div className="relative mx-auto max-w-7xl">
 
@@ -115,7 +115,7 @@ export default function About() {
                     key={stat.label}
                     delay={index * 0.08}
                   >
-                    <div className="h-full rounded-2xl border border-white/10 bg-white/[0.03] p-5">
+                    <div className="h-full rounded-2xl border border-white/10 bg-white/[0.035] p-5">
                       <p className="text-2xl font-bold text-white">
                         {stat.value}
                       </p>
@@ -179,7 +179,7 @@ export default function About() {
 
         {/* BOTTOM STATEMENT */}
         <Reveal delay={0.2}>
-          <div className="mt-16 rounded-3xl border border-violet-500/20 bg-violet-500/[0.05] p-8 text-center">
+          <div className="mt-16 rounded-3xl border border-violet-500/20 bg-violet-500/[0.035] p-8 text-center">
             <p className="mx-auto max-w-3xl text-xl font-medium leading-8 text-zinc-200 sm:text-2xl">
               &quot;The goal isn&apos;t just to learn technology —
               it&apos;s to use technology to build something meaningful.&quot;

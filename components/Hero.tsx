@@ -41,7 +41,7 @@ export default function Hero() {
     >
       {/* Background grid */}
       <div
-        className="pointer-events-none absolute inset-0 opacity-[0.035]"
+        className="pointer-events-none absolute inset-0 opacity-[0.045]"
         style={{
           backgroundImage:
             "linear-gradient(rgba(255,255,255,0.8) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.8) 1px, transparent 1px)",
@@ -55,7 +55,7 @@ export default function Hero() {
           x: orbX,
           y: orbY,
         }}
-        className="pointer-events-none absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-violet-600/15 blur-[140px]"
+        className="pointer-events-none absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-violet-500/[0.07] blur-[140px]"
       />
 
       <div className="relative mx-auto grid w-full max-w-7xl gap-16 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
@@ -131,7 +131,7 @@ export default function Hero() {
           >
            <a
   href="#projects"
-  className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-violet-500 px-6 py-3.5 text-sm font-semibold text-white shadow-[0_0_25px_rgba(139,92,246,0.35)] transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-105 hover:bg-violet-400 hover:shadow-[0_0_45px_rgba(139,92,246,0.75)]"
+  className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-violet-500 px-6 py-3.5 text-sm font-semibold text-white shadow-[0_0_25px_rgba(139,92,246,0.25)] transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-105 hover:bg-violet-400 hover:shadow-[0_0_35px_rgba(139,92,246,0.4)]"
 >
   {/* Bright hover sweep */}
   <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/30 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
